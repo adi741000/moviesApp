@@ -28,7 +28,7 @@ function Movies() {
       // data manga
       axios
         .get(
-          `https://api.themoviedb.org/3/trending/movie/week?api_key=5540e483a20e0b20354dabc2d66a31c9&page=${page}`
+          `https://api.themoviedb.org/3/trending/movie/week?api_key=enterapikey&page=${page}`
         )
         .then((res) => {
           console.table(res.data.results);
